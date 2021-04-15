@@ -29,7 +29,10 @@ Here we list the commands for training/evaluating PointCNN+FI-Conv on segmentati
   python3 eval_scannet.py -d ../../data/scannet/seg/test -p ../../data/scannet/seg/scannet_test.pickle
   ```
   ####
-  we also provide a Pretrained model. You can use it by follows code.
+  we also provide a Pretrained model.  Before using it, you need to install "git-lfs" first, and then clone  the  remote depository to the local through "git lfs clone https://github.com/jiezhangxl/PointCNN-FI-Conv.git".
+  Then, You can use it by following code.
+  ```
   ./test_scannet.sh -g 0 -x scannet_x8_2048_fps -l ../model/iter-232000 -r 4
   cd ../evaluation
   python3 eval_scannet.py -d ../../data/scannet/seg/test -p ../../data/scannet/seg/scannet_test.pickle
+  ```
