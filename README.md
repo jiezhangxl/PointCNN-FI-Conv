@@ -13,7 +13,7 @@ This code is based on the architecture of PointCNN. (PointCNN+FI-Conv)
 
 ## PointCNN+FI-Conv Usage
 
-The codeis implemented and tested with Tensorflow 1.12 in python3 scripts. 
+The code is implemented and tested with Tensorflow 1.12 in python3 scripts. 
 It has dependencies on some python packages such as transforms3d, h5py, plyfile, and maybe more if it complains. Install these packages before the use of PointCNN+FI-Conv.
 
 Here we list the commands for training/evaluating PointCNN+FI-Conv on segmentation tasks on ScanNet dataset.
@@ -23,7 +23,7 @@ Here we list the commands for training/evaluating PointCNN+FI-Conv on segmentati
   You can download it at [here (1.72GB)](https://shapenet.cs.stanford.edu/media/scannet_data_pointnet2.zip).
   Unzip the data into "..\data\scannet\seg"
   
-  ####  data preparing, training and testing
+  ####  data preparing, training and evaluating
   ```
   cd data_conversions
   python3 prepare_scannet_seg_data.py
