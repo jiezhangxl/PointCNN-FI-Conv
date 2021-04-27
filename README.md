@@ -16,8 +16,12 @@ It has dependencies on some python packages such as transforms3d, h5py, plyfile,
 
 Here we list the commands for training/evaluating PointCNN+FI-Conv on segmentation tasks on ScanNet dataset.
 
-  * #### ScanNet
-  Please refer to [data_conversions](data_conversions/README.md) for downloading ScanNet, then:
+  #### download data
+  We follow [pointnet++ preprocessed data](https://github.com/charlesq34/pointnet2/tree/master/scannet). 
+  You can download it at [here (1.72GB)](https://shapenet.cs.stanford.edu/media/scannet_data_pointnet2.zip).
+  Unzip the data into "..\data\scannet\seg"
+  
+  ####
   ```
   cd data_conversions
   python3 prepare_scannet_seg_data.py
