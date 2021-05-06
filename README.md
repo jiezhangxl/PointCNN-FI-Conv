@@ -23,7 +23,7 @@ Here we list the commands for training/evaluating PointCNN+FI-Conv on segmentati
   You can download it at [here (1.72GB)](https://shapenet.cs.stanford.edu/media/scannet_data_pointnet2.zip).
   Unzip the data into "..\data\scannet\seg"
   
-  ### farthest point sampling 
+  #### farthest point sampling 
   We use farthest point sampling (the implementation from <a href="https://github.com/charlesq34/pointnet2" target="_blank">PointNet++</a>) in segmentation tasks. Compile FPS before the training/evaluation:
   ```
   cd sampling
