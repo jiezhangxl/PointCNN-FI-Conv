@@ -41,6 +41,7 @@ Here we list the commands for training/evaluating PointCNN+FI-Conv on segmentati
   cd ../evaluation
   python3 eval_scannet.py -d ../../data/scannet/seg/test -p ../../data/scannet/seg/scannet_test.pickle
   ```
+  Please note, in training, trained models are saved in "ckpts" and their Acc are recorded in "log.txt". When using "test_scannet.sh", you need choose one model with higher Acc from ckpts, such as "./test_scannet.sh -g 0 -x scannet_x8_2048_fps -l ../../models/seg/FIConv+XConv+Random+Optimization_scannet_x8_2048_fps_2021-05-05-13-14-39_419/ckpts/iter-168000 -r 4"
   ####
   we also provide a Pretrained model. You can use it by the following code.
   ```
