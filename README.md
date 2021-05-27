@@ -29,7 +29,7 @@ Here we list the commands for training/evaluating PointCNN+FI-Conv on segmentati
   cd sampling
   bash tf_sampling_compile.sh
   ```
-  
+  If "undefined symbol: _ZN10tensorflow8internal21CheckOpMessageBuilder9NewStringEv" error is prompted, you can delete "-D_GLIBCXX_USE_CXX11_ABI=0" in "tf_sampling_compile.sh" and recompile.
   ####  data preparing, training and evaluating
   ```
   cd data_conversions
