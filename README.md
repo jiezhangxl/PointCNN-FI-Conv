@@ -9,7 +9,7 @@ This code is based on the architecture of PointCNN. (PointCNN+FI-Conv)
 
 * per voxel labelling accuracy on ScanNet (**85.1%**).results shown in table 4.
 
-* we provide a Pretrained model. Before using it, you need to install "git-lfs" first, and then clone the remote repository to the local through "git lfs clone https://github.com/jiezhangxl/PointCNN-FI-Conv.git".
+* We provide a Pretrained model. The size of it is larger than 100M. Before using it, you need to install "git-lfs" first, and then clone the remote repository to the local through "git lfs clone https://github.com/jiezhangxl/PointCNN-FI-Conv.git".
 
 ## PointCNN+FI-Conv Usage
 
